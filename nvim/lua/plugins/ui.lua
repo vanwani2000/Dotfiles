@@ -59,8 +59,57 @@ return {
     event = "VeryLazy",
     opts = {
       options = {
-        -- globalstatus = false,
+        globalstatus = false,
         theme = "solarized_dark",
+      },
+      inactive_sections = {
+        lualine_a = {
+          {
+            "mode",
+            icons_enabled = true,
+            color = {
+              fg = "#eee8d5",
+              bg = "#5b2c6f",
+            },
+            separator = {
+              right = "",
+            },
+          },
+        },
+        lualine_b = {
+          {
+            "filetype",
+            "filename",
+            color = { fg = "#073642", bg = "#839496" },
+            separator = {
+              right = "",
+            },
+          },
+        },
+        lualine_x = {
+          {
+            "location",
+            icons_enabled = true,
+            icons = { "", align = "right" },
+            color = { fg = "#073642", bg = "#839496" },
+            separator = {
+              left = "",
+            },
+          },
+        },
+        lualine_y = {
+          {
+            "filesize",
+            icons_enabled = true,
+            color = {
+              fg = "#eee8d5",
+              bg = "#5b2c6f",
+            },
+            separator = {
+              left = "",
+            },
+          },
+        },
       },
     },
   },
