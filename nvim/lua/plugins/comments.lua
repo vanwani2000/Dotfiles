@@ -20,6 +20,11 @@ return {
 
       local ft = require("Comment.ft")
       ft.set("reason", { "//%s", "/*%s*/" })
+
+      local api = require("Comment.api")
+
+      vim.keymap.set("v", "<C-_>", api.call("toggle.linewise", "g@"), { expr = true })
+      vim.keymap.set("i", "<C-_>", api.toggle.linewise.current)
     end,
   },
 }
