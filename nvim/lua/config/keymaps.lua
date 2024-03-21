@@ -17,7 +17,7 @@ keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
 -- Delete a word backwards
-keymap.set("n", "dw", 'vb"_d')
+keymap.set("n", "<C-W>", 'vb"_d')
 
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
@@ -58,6 +58,9 @@ end, opts)
 
 nnoremap("H", "^")
 nnoremap("L", "$")
+
+vnoremap("H", "^")
+vnoremap("L", "$")
 
 -- Move selected text up/down in visual mode
 vnoremap("<C-k>", ":m '<-2<CR>gv=gv")
