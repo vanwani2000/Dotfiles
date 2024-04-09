@@ -1,5 +1,5 @@
 #!/bin/bash
 
-split-window -v -l 30%
-split-window -h -l 66%
-split-window -h -l 50%
+tmux split-window -v -l 30%
+tmux split-window -h -l 66%
+tmux split-window -h -l 50%
