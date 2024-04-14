@@ -1,5 +1,5 @@
-[](./images/Neovim.PNG)
-[](./images/Neovim AFter.PNG)
+![](./images/Neovim.PNG)
+![](./images/Neovim AFter.PNG)
 
 #The1wani Dotfiles
 Warning: Watch Tutorials on Youtube before cloning.
