@@ -1,7 +1,7 @@
 ![](./images/Neovim.PNG)
 ![](./images/Neovim_after.PNG)
 
-#THE1WANI-Dotfiles
+<h1>THE1WANI-Dotfiles</h1>
 Warning: Watch Tutorials on Youtube before cloning.
 
 <h1>Contents</h1>
@@ -10,7 +10,7 @@ Warning: Watch Tutorials on Youtube before cloning.
 2. Tmux Config
 3. Fish Config
 
-##Neovim Setup
+<h1>Neovim Setup</h1>
 Requirements
 
 1. Neovim >= 0.9.0 (needs to be built with LuaJIT)
@@ -26,7 +26,7 @@ Requirements
    - [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701?ocid=pdpshare)
 9. [Homebrew](https://brew.sh/) (Package Manager for Linux)
 
-##Shell Setup
+<h1>Shell Setup</h1>
 
 1. [Fish shell](https://fishshell.com/)
 2. [Fisher](https://github.com/jorgebucaran/fisher) - (Plugin Manager for Fish Shell)
