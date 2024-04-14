@@ -1,4 +1,5 @@
 ![](./images/Neovim.PNG)
+![](./images/NeovimAgain.PNG)
 
 <h1>The1wani's dotfiles</h1>
 Warning: Watch Tutorials on Youtube before cloning.
@@ -10,7 +11,6 @@ Warning: Watch Tutorials on Youtube before cloning.
 3. Fish Config
 
 <h1>Neovim Setup</h1>
-![](./images/NeovimAgain.PNG)
 
 <h3>Requirements</h3>
 
