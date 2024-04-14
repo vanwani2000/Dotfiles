@@ -11,7 +11,8 @@ Warning: Watch Tutorials on Youtube before cloning.
 3. Fish Config
 
 <h1>Neovim Setup</h1>
-**Requirements**
+
+<h3>Requirements</h3>
 
 1. Neovim >= 0.9.0 (needs to be built with LuaJIT)
 2. Git >= 2.19.0 (for partial clones support)
