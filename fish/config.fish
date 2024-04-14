@@ -3,6 +3,15 @@ if status is-interactive
     set fish_greeting ""
     set -gx TERM xterm-256color
 
+    # color for command in prompt
+    set fish_color_command green --bold
+    # color for file path after command or keyword
+    set fish_color_valid_path purple --bold --underline
+    set fish_color_selection green
+
+    #escape through Ctrl + c from insert mode to normal mode in prompt
+    bind -M insert -m default \cc cancel repaint-mode
+
     # theme
     set -g theme_color_scheme terminal-dark
     set -g fish_prompt_pwd_dir_length 1
@@ -20,6 +29,7 @@ if status is-interactive
 
     alias ide "~/.config/tmux/scripts/ide.sh"
     alias vde "~/.config/tmux/scripts/vde.sh"
+    alias kill "pkill -f tmux"
 
     alias x "cd /mnt/e"
 
