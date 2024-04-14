@@ -1,12 +1,12 @@
 ![](./images/Neovim.PNG)
 ![](./images/Neovim_after.PNG)
 
-<h1>The1wani dotfiles</h1>
+<h1>The1wani's dotfiles</h1>
 Warning: Watch Tutorials on Youtube before cloning.
 
 <h1>Contents</h1>
 
-1. Neovim
+1. Neovim Config
 2. Tmux Config
 3. Fish Config
 
@@ -19,7 +19,7 @@ Warning: Watch Tutorials on Youtube before cloning.
 3. [Lazyvim](https://www.lazyvim.org/)
 4. A [Nerd Font](https://www.nerdfonts.com/)
 5. A **C** Compiler for nvim-treesitter to install.
-6. For [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) optional.
+6. For [Telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) (optional).
    - live grep: [ripgrep](https://github.com/BurntSushi/ripgrep)
    - find files: [fd](https://github.com/sharkdp/fd)
 7. WSL (Windows Subsystem for Linux)
