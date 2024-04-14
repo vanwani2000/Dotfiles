@@ -1,7 +1,7 @@
 ![](./images/Neovim.PNG)
 ![](./images/Neovim_after.PNG)
 
-#The1wani Dotfiles
+#THE1WANI-Dotfiles
 Warning: Watch Tutorials on Youtube before cloning.
 
 ##Contents
