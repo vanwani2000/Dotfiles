@@ -4,7 +4,7 @@
 #THE1WANI-Dotfiles
 Warning: Watch Tutorials on Youtube before cloning.
 
-##Contents
+<h1>Contents</h1>
 
 1. Neovim
 2. Tmux Config
