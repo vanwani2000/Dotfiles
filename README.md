@@ -1,6 +1,5 @@
 ![](./images/Neovim.PNG)
-![](./images/Neovim.PNG)
-<img src="./images/Neovim.PNG" style="height: 100px; width: 100px;"/>
+![](./images/NeovimAgain.PNG)
 
 <h1>The1wani's dotfiles</h1>
 Warning: Watch Tutorials on Youtube before cloning.
