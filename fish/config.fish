@@ -30,6 +30,7 @@ if status is-interactive
     alias ide "~/.config/tmux/scripts/ide.sh"
     alias vde "~/.config/tmux/scripts/vde.sh"
     alias kill "pkill -f tmux"
+    alias download "cd /mnt/c/Users/DELL/Downloads"
 
     alias x "cd /mnt/e"
 
